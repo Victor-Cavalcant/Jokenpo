@@ -1,0 +1,86 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+
+#divBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    font-size: 100px;
+    margin-bottom: 5vh;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 245);
+}
+
+
+#results {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid green; */
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+#playAgainBtn {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+}
+
+#playAgainDiv {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid orange; */
+    height: 100px;
+    width: 100%;
+}
